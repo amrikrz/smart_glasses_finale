@@ -1,0 +1,29 @@
+name: smart_vision_assistant
+description: Assistive obstacle detection for blind users.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.3.2
+  web_socket_channel: ^3.0.3
+  flutter_tts: ^4.2.5
+  vibration: ^3.1.8
+  dio: ^5.4.0
+  #firebase_messaging: ^14.7.0
+  #flutter_foreground_task: ^6.1.0
+  google_fonts: ^8.1.0
+  camera: ^0.12.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+
+flutter:
+  uses-material-design: true

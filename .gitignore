@@ -1,0 +1,15 @@
+training/raw/
+training/merged/
+training/small/
+unused/
+training/unused/
+*.zip
+*.pt
+.env
+build/
+.dart_tool/
+*.apk
+__pycache__/
+runs/
+*.avi
+*.mp4
